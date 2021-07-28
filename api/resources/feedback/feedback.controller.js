@@ -1,4 +1,4 @@
-const { Feedback } = require("../../models");
+const { Feedback } = require("../../database/models");
 
 async function getAll(req, res) {
   try {
